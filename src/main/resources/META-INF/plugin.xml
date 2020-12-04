@@ -1,0 +1,79 @@
+<idea-plugin>
+    <id>org.tboox.xmake</id>
+    <name>XMake</name>
+    <version>1.0.5</version>
+    <vendor email="waruqi@gmail.com" url="http://www.tboox.org">tboox.org</vendor>
+
+    <description><![CDATA[
+    A XMake integration plugin in Intellij Platform<br>
+    <p><a href="https://github.com/xmake-io/xmake-idea">Source Code</a> | <a href="https://gitter.im/tboox/tboox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">Gitter</a> | <a href="http://xmake.io/pages/donation.html#donate">Donate</a> | <a href="http://xmake.io">XMake Homepage</a></p>
+    Features:
+    <ul>
+        <li>xmake</li>
+        <ul>
+            <li>C/C++/Objc/Swift/Rust/Dlang/Golang ... support</li>
+            <li>Cross-platform support</li>
+            <li>Lua syntax</li>
+            <li><a href="https://github.com/xmake-io/xmake">More features and info about xmake</a></li>
+        </ul>
+        <li>Quickstart</li>
+        <li>Create project</li>
+        <li>Project configuration</li>
+        <li>Run configuration</li>
+        <li>Menu tools</li>
+        <li>Tool windows</li>
+        <li>Build and run</li>
+        <li>Goto error and waring problems</li>
+    </ul>
+    <p>中国朋友可以加QQ群交流及反馈BUG: 343118190</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <strong>1.0.5</strong>
+    <ul>
+        <li>[FIX]: Fix conflict issues with java</li>
+    </ul>
+    <strong>1.0.4</strong>
+    <ul>
+        <li>[NEW]: Modify rebuild icon</li>
+    </ul>
+    <strong>1.0.3</strong>
+    <ul>
+        <li>[NEW]: Improve exit code</li>
+    </ul>
+    <strong>1.0.2</strong>
+    <ul>
+        <li>[NEW]: Create project (c/c++/rust/go/dlang/swift/objc)</li>
+    </ul>
+    <strong>1.0.1</strong>
+    <ul>
+        <li>[NEW]: Quickstart</li>
+        <li>[NEW]: Project configuration</li>
+        <li>[NEW]: Run configuration</li>
+        <li>[NEW]: Menu tools</li>
+        <li>[NEW]: Tool windows</li>
+        <li>[NEW]: Build and run</li>
+        <li>[NEW]: Goto error and waring problems</li>
+    </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <group id="XMake.Menu" text="XMake" description="XMake Menu">
+            <add-to-group group-id="MainMenu" anchor="after" relative-to-action="RunMenu"/>
+            <action id="XMake.Build" class="actions.BuildAction" text="Build Project" icon="ActionIcons.Build"
+                    description="Build the current project."/>
+            <action id="XMake.Clean" class="actions.CleanAction" text="Clean Project" icon="ActionIcons.Clean"
+                    description="Clean target and object files."/>
+        </group>
+    </actions>
+</idea-plugin>

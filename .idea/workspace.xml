@@ -1,53 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8de1b9d-aaa2-4bbd-abb2-882bdccdbba2" name="Default Changelist" comment="">
+    <list default="true" id="57a858be-d914-43d5-8e8f-4de42cf8ba58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/actions/BuildAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/actions/CleanAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/icons/ActionIcons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/SystemUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/externalDependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmake-idea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xmake-idea.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/create_project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/logo256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/output_panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/problem.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/project_configuration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/quickstart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/run_configuration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/clion-only.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/idea-only.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/build.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/build.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/build@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/build@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/build@2x_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/build@2x_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/build_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/build_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/clean.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/clean.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/clean@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/clean@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/cleanconf.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/cleanconf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/cleanconf@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/cleanconf@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/debug.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/debug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/debug@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/debug@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/debug@2x_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/debug@2x_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/debug_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/debug_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/error@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/error@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/quickstart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/quickstart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/quickstart@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/quickstart@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/rebuild.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/rebuild.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/rebuild@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/rebuild@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/rebuild@2x_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/rebuild@2x_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/rebuild_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/rebuild_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/run.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/run.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/run@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/run@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/settings.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/settings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/settings@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/settings@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/settings@2x_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/settings@2x_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/settings_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/settings_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/warning@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/warning@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/xmake.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/xmake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/xmake@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/xmake@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icons/xmake_13x13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/xmake_13x13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/actions/BuildAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/actions/CleanAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/actions/CleanConfigurationAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/actions/QuickStartAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/actions/RebuildAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/actions/RunAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/icons/XMakeIconProvider.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/icons/XMakeIcons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/icons/XMakeIcons.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeModuleBuilder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeModuleConfigurationEditorProvider.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeModuleType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeProjectConfigurable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeSdkSettingsStep.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeSdkType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeToolWindowFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/project/XMakeToolWindowFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeToolWindowOutputPanel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/project/XMakeToolWindowOutputPanel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/project/XMakeToolWindowProblemPanel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/project/XMakeToolWindowProblemPanel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/run/XMakeProjectTasksRunner.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/run/XMakeRunConfiguration.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/run/XMakeRunConfigurationEditor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/run/XMakeRunConfigurationProducer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/run/XMakeRunConfigurationType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/run/XMakeRunner.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/shared/XMakeConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/shared/XMakeConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/shared/XMakeProblem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/shared/XMakeProblem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/utils/ConsoleProcessHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/tboox/xmake/utils/SystemUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmake-idea.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1l8qWJiHN95x5ZMixGvgWKxXtia" />
+  <component name="ProjectId" id="1lB9fqJcXxd9iYieyKF2yIxanDs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xmake-idea.iml" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8de1b9d-aaa2-4bbd-abb2-882bdccdbba2" name="Default Changelist" comment="" />
-      <created>1606989096616</created>
+      <changelist id="57a858be-d914-43d5-8e8f-4de42cf8ba58" name="Default Changelist" comment="" />
+      <created>1607059723689</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606989096616</updated>
+      <updated>1607059723689</updated>
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update: migration to gradle environment&#10;&#10;the project is not suitable now. Move to gradle environment. &#10;&#10;log: &#10;change environment to gradle.&#10;change the resource structure&#10;change the source code structure and package structure&#10;fix Syntax Error in XMakeToolWindowOutputPanel.kt&#10;fix Syntax Error in XMakeToolWindowProblemPanel.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: migration to gradle environment&#10;&#10;the project is not suitable now. Move to gradle environment. &#10;&#10;log: &#10;change environment to gradle.&#10;change the resource structure&#10;change the source code structure and package structure&#10;fix Syntax Error in XMakeToolWindowOutputPanel.kt&#10;fix Syntax Error in XMakeToolWindowProblemPanel.kt" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="278" width="426" height="496" key="FileChooserDialogImpl" timestamp="1606989166732">
+    <state x="726" y="230" key="#HTTP_Proxy" timestamp="1607060395007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="278" width="426" height="496" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606989166732" />
-    <state x="304" y="78" key="new project wizard" timestamp="1606989233928">
+    <state x="726" y="230" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1607060395007" />
+    <state x="447" y="91" key="#Project_Structure" timestamp="1607064076996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="304" y="78" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606989233928" />
+    <state x="447" y="91" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1607064076996" />
+    <state x="747" y="272" key="FileChooserDialogImpl" timestamp="1607066967585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607066967585" />
+    <state x="449" y="155" width="1022" height="742" key="SettingsEditor" timestamp="1607067843674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="449" y="155" width="1022" height="742" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607067843674" />
   </component>
 </project>
